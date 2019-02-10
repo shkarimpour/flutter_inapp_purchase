@@ -1,6 +1,6 @@
-# flutter_inapp_purchase
+# flutter_iran_inapp_purchase
 <p align="left">
-  <a href="https://pub.dartlang.org/packages/flutter_inapp_purchase"><img alt="pub version" src="https://img.shields.io/pub/v/flutter_inapp_purchase.svg?style=flat-square"></a>
+  <a href="https://pub.dartlang.org/packages/flutter_iran_inapp_purchase"><img alt="pub version" src="https://img.shields.io/pub/v/flutter_iran_inapp_purchase.svg?style=flat-square"></a>
 </p>
 
 In App Purchase plugin for flutter. This project has been `forked` from [react-native-iap](https://github.com/dooboolab/react-native-iap). We are trying to share same experience of `in-app-purchase` in `flutter` as in `react-native`.
@@ -83,7 +83,7 @@ For help on editing plugin code, view the [documentation](https://flutter.io/dev
 
 
 ## Install
-Add ```flutter_inapp_purchase``` as a dependency in pubspec.yaml
+Add ```flutter_iran_inapp_purchase``` as a dependency in pubspec.yaml
 
 For help on adding as a dependency, view the [documentation](https://flutter.io/using-packages/).
 

@@ -11,7 +11,7 @@ Install the Amazon App Tester (AAT) :
 
 You need to create an amazon.sdktester.json file. 
 
-Example : [amazon.sdktester.json](https://github.com/dooboolab/flutter_inapp_purchase/blob/master/ancillary/amazon.sdktester.json)
+Example : [amazon.sdktester.json](https://github.com/dooboolab/flutter_iran_inapp_purchase/blob/master/ancillary/amazon.sdktester.json)
 Edit this to add your own Product Ids. 
 
 Put this file into the kindle sdcard with :

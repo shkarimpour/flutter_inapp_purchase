@@ -1,6 +1,6 @@
-# flutter_inapp_purchase_example
+# flutter_iran_inapp_purchase_example
 
-Demonstrates how to use the flutter_inapp_purchase plugin.
+Demonstrates how to use the flutter_iran_inapp_purchase plugin.
 
 ## Getting Started
 

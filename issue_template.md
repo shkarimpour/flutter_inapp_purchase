@@ -1,4 +1,4 @@
-### Version of flutter_inapp_purchase
+### Version of flutter_iran_inapp_purchase
 
 ### Platforms you faced the error (IOS or Android or both?)
 

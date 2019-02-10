@@ -21,7 +21,7 @@ class FlutterInappPurchase {
   static StreamSubscription _purchaseSub;
   static Stream<PurchasedItem> get onAdditionalSuccessPurchaseIOS => _purchaseController.stream;
 
-  /// Defining the [MethodChannel] for Flutter_Inapp_Purchase
+  /// Defining the [MethodChannel] for flutter_iran_inapp_purchase
   static const MethodChannel _channel = const MethodChannel('flutter_inapp');
 
   /// Returns the platform version on `Android` and `iOS`.

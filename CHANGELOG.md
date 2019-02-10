@@ -10,7 +10,7 @@
 * Use dictionaryWithObjectsAndKeys in NSDictionary to fetch product values. This will prevent from NSInvalidArgumentException in ios which rarely occurs.
 * Fixed wrong npe in `android` when `getAvailablePurchases`.
 + Only parse `orderId` when exists in `Android` to prevent crashing.
-+ Add additional success purchase listener in `iOS`. Related [#54](https://github.com/dooboolab/flutter_inapp_purchase/issues/54)
++ Add additional success purchase listener in `iOS`. Related [#54](https://github.com/dooboolab/flutter_iran_inapp_purchase/issues/54)
 
 ## 0.7.1
 * Implemented receiptValidation for both android and ios.
@@ -95,7 +95,7 @@
 * Moved dynamic return type away and instead give `PurchasedItem`.
 
 ## 0.2.3
-* Quickly fixed purchase bug out there in [issue](https://github.com/dooboolab/flutter_inapp_purchase/issues/2). Need much more improvement currently.
+* Quickly fixed purchase bug out there in [issue](https://github.com/dooboolab/flutter_iran_inapp_purchase/issues/2). Need much more improvement currently.
 
 ## 0.2.2
 * Migrated packages from FlutterInApp to FlutterInAppPurchase because pub won't get it.

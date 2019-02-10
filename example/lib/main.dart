@@ -3,7 +3,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_inapp_purchase/flutter_inapp_purchase.dart';
+import 'package:flutter_iran_inapp_purchase/flutter_iran_inapp_purchase.dart';
 
 void main() => runApp(new MyApp());
 
