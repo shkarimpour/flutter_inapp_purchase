@@ -400,8 +400,9 @@ If you have eneabled proguard you will need to add the following rules to your `
 ```
 #In app Purchase
 -keep class com.amazon.** {*;}
--keep class com.dooboolab.** { *; }
+-keep class com.hululang.** { *; }
 -keep class com.android.vending.billing.**
+-keep class ir.cafebazaar.pardakht.**
 -dontwarn com.amazon.**
 -keepattributes *Annotation*
 ```

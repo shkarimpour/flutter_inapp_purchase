@@ -1,4 +1,4 @@
-package com.dooboolab.iapexample;
+package com.hululang.iapexample;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

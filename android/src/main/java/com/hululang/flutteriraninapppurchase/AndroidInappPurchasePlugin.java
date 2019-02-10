@@ -1,4 +1,4 @@
-package com.dooboolab.flutterinapppurchase;
+package com.hululang.flutteriraninapppurchase;
 
 import android.app.Activity;
 import android.content.ComponentName;

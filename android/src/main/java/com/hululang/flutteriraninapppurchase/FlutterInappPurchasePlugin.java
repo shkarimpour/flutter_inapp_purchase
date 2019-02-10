@@ -1,4 +1,4 @@
-package com.dooboolab.flutterinapppurchase;
+package com.hululang.flutteriraninapppurchase;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -12,18 +12,22 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 /** FlutterInappPurchasePlugin */
 public class FlutterInappPurchasePlugin implements MethodCallHandler {
   static AndroidInappPurchasePlugin androidPlugin;
+  static BazaarInappPurchasePlugin bazaarPlugin;
   static AmazonInappPurchasePlugin amazonPlugin;
   private static  Registrar mRegistrar;
 
   FlutterInappPurchasePlugin() {
     androidPlugin = new AndroidInappPurchasePlugin();
+    androidPlugin = new BazaarInappPurchasePlugin();
     amazonPlugin = new AmazonInappPurchasePlugin();
   }
 
   // Plugin registration.
   public static void registerWith(Registrar registrar) {
     mRegistrar = registrar;
-    if(isPackageInstalled(mRegistrar.context(), "com.android.vending")) {
+    if(isPackageInstalled(mRegistrar.context(), "com.farsitel.bazaar")) {
+      bazaarPlugin.registerWith(registrar);
+    } else if(isPackageInstalled(mRegistrar.context(), "com.android.vending")) {
       androidPlugin.registerWith(registrar);
     } else if(isPackageInstalled(mRegistrar.context(), "com.amazon.venezia")) {
       amazonPlugin.registerWith(registrar);
@@ -33,7 +37,9 @@ public class FlutterInappPurchasePlugin implements MethodCallHandler {
 
   @Override
   public void onMethodCall(final MethodCall call, final Result result) {
-    if(isPackageInstalled(mRegistrar.context(), "com.android.vending")) {
+    if(isPackageInstalled(mRegistrar.context(), "com.farsitel.bazaar")) {
+      bazaarPlugin.onMethodCall(call, result);
+    else if(isPackageInstalled(mRegistrar.context(), "com.android.vending")) {
       androidPlugin.onMethodCall(call, result);
     } else if(isPackageInstalled(mRegistrar.context(), "com.amazon.venezia")) {
       amazonPlugin.onMethodCall(call, result);

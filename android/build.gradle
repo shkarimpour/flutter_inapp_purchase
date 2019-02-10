@@ -1,4 +1,4 @@
-group 'com.dooboolab.flutterinapppurchase'
+group 'com.hululang.flutteriraninapppurchase'
 version '1.0-SNAPSHOT'
 
 buildscript {
